@@ -1,7 +1,7 @@
-import { MoveRight, ShieldCheck, Star } from 'lucide-react'
+import { MoveRight, ShieldCheck } from 'lucide-react'
 import heroImage from '../../assets/heroimg/hero.png'
-import Button from '../ui/Button'
-import '../styles/Hero.css'
+import Button from '../../components/Button'
+import '../../styles/sections/home/Hero.css'
 
 const proofUsers = ['V', 'T', 'J', 'A']
 
@@ -12,7 +12,6 @@ export default function Hero() {
       <div className="hero-stage">
         <div className="hero-content">
           <div className="hero-badge">
-            {/* <Star size={14} strokeWidth={2.25} /> */}
             <span>No:1 Laptop Verification Platform in Nigeria</span>
           </div>
 

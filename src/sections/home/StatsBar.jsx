@@ -1,5 +1,5 @@
 import { Clock3, LockKeyhole, ShieldCheck, Smile } from 'lucide-react'
-import '../styles/StatsBar.css'
+import '../../styles/sections/home/StatsBar.css'
 
 const statsItems = [
   {

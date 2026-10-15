@@ -4,8 +4,8 @@ import {
   TrendingUp,
   Upload,
 } from 'lucide-react'
-import InfoCard from '../ui/InfoCard'
-import '../styles/Services.css'
+import InfoCard from '../../components/InfoCard'
+import '../../styles/sections/home/Services.css'
 
 const serviceItems = [
   {

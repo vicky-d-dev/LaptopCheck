@@ -4,8 +4,8 @@ import {
   Gauge,
   Upload,
 } from 'lucide-react'
-import InfoCard from '../ui/InfoCard'
-import '../styles/Problem.css'
+import InfoCard from '../../components/InfoCard'
+import '../../styles/sections/home/Problem.css'
 
 const problemItems = [
   {

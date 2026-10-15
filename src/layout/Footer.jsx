@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from 'lucide-react'
-import Logo from '../../assets/navimg/Logo2.png'
-import '../styles/Footer.css'
+import Logo from '../assets/navimg/Logo2.png'
+import '../styles/layout/Footer.css'
 
 const quickLinks = [
   { name: 'Home', href: '#home' },

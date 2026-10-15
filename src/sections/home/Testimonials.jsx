@@ -1,5 +1,5 @@
 import { Quote, Star } from 'lucide-react'
-import '../styles/Testimonials.css'
+import '../../styles/sections/home/Testimonials.css'
 
 const testimonials = [
   {

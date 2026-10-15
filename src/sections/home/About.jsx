@@ -1,5 +1,5 @@
 import { Bolt, FileText, ShieldCheck } from 'lucide-react'
-import '../styles/About.css'
+import '../../styles/sections/home/About.css'
 import aboutImage from '../../assets/abtimg/abt.png'
 
 export default function About() {

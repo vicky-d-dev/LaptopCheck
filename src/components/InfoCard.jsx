@@ -1,4 +1,4 @@
-import '../styles/InfoCard.css'
+import '../styles/components/InfoCard.css'
 
 export default function InfoCard({
   icon,
