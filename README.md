@@ -58,6 +58,30 @@ The result is a clean and scalable frontend structure with reusable UI component
 
 Rather than building a basic demo page, the final output feels more like a realistic brand landing page that communicates trust, explains the service clearly, and supports user conversion.
 
+## Project Structure
+
+`App.jsx` renders the Home page. `pages/Home.jsx` assembles the existing layout and sections.
+
+```text
+src/
+  App.jsx
+  main.jsx
+  index.css
+  pages/                 # page composition
+  sections/home/         # Home page sections
+  layout/                # Navbar and Footer
+  components/            # reusable Button and InfoCard
+  styles/
+    sections/home/       # styles for Home sections
+    layout/              # styles for Navbar and Footer
+    components/          # styles for reusable elements
+  assets/                # existing images
+```
+
+Global styles stay in `src/index.css`. Other styles mirror the JSX folders.
+
+The contact form currently has no delivery integration; API submission is planned separately.
+
 ## Run Locally
 
 ```bash

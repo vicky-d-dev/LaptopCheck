@@ -1,6 +1,6 @@
 import { Mail, MapPin, MoveRight, Phone } from 'lucide-react'
-import Button from '../ui/Button'
-import '../styles/Contact.css'
+import Button from '../../components/Button'
+import '../../styles/sections/home/Contact.css'
 
 const contactItems = [
   {

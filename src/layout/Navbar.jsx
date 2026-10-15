@@ -1,7 +1,7 @@
-import Logo from '../../assets/navimg/Logo2.png'
+import Logo from '../assets/navimg/Logo2.png'
 
-import '../styles/Navbar.css'
-import Button from '../ui/Button'
+import '../styles/layout/Navbar.css'
+import Button from '../components/Button'
 import { useState } from 'react'
 import { Menu, MoveRight, X } from 'lucide-react'
 
